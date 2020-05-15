@@ -91,6 +91,12 @@ class TicTacToe
   def winner
     won? ? @board[won?[0]] : nil
   end
-
+  
+  def play 
+    until over? do
+      turn
+    end
+won? "Congratulations, #{current_player}, you win!"
+end
 end
   
