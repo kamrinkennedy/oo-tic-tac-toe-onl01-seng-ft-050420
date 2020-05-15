@@ -98,7 +98,6 @@ class TicTacToe
     end
     won? ? "Congratulations, #{current_player}, you win!" : "The game is a draw."
   end
-end
   
 end
   
