@@ -39,15 +39,15 @@ class TicTacToe
     @board[index] && !position_taken? ? true : false
   end
 
-  def turn
-    input = input_to_index(gets.chomp)
-    if valid_move?(input)
-      move(input, current_player)
-      display_board
+  # def turn
+  #   input = input_to_index(gets.chomp)
+  #   if valid_move?(input)
+  #     move(input, current_player)
+  #     display_board
 
-      # turn
-    end
-  end 
+  #     # turn
+  #   end
+  # end 
     
   def turn_count
     count = 0 
