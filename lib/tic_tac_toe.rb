@@ -96,7 +96,8 @@ class TicTacToe
     until over? do
       turn
     end
-won? "Congratulations, #{current_player}, you win!"
-end
+    won? ? "Congratulations, #{current_player}, you win!" : "The game is a draw."
+  end
+  
 end
   
