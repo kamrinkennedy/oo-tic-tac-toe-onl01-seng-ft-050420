@@ -93,7 +93,7 @@ class TicTacToe
   end
   
   def play 
-    if !over?
+    until over? do
       turn
     elsif won?
       puts "Congratulations, #{current_player}!"
