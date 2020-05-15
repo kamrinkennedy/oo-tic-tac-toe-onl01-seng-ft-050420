@@ -36,7 +36,7 @@ class TicTacToe
   end
   
   def valid_move?(index)
-    @board[index] && !position_taken? ? true : false
+    @board[index] && !position_taken?(index) ? true : false
   end
 
   # def turn
