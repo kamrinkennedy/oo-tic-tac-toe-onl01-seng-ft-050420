@@ -92,12 +92,12 @@ class TicTacToe
     won? ? @board[won?[0]] : nil
   end
   
-  def play 
-    until over? do
-      turn
-    end
-    won? ? puts "Congratulations #{current_player}!" : puts "Cat's game!"
-  end
+  # def play 
+  #   until over? do
+  #     turn
+  #   end
+  #   won? ? puts "Congratulations #{current_player}!" : puts "Cat's game!"
+  # end
   
 end
   
